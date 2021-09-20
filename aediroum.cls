@@ -7,6 +7,9 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage[french]{babel}
 
+\RequirePackage{newunicodechar}
+\newunicodechar{·}{\ifmmode\cdot\else$\cdot$\fi}
+
 \RequirePackage{moresize}
 \RequirePackage{parskip}
 \RequirePackage{marginnote}
