@@ -23,7 +23,7 @@
 \renewcommand{\maketitle}{
 \begin{titlepage}
 \begin{center}
-\includegraphics[width=4in]{logo.png}
+\includegraphics[width=10pc]{logo}
 
 \vfill
 {\HUGE \@title}
