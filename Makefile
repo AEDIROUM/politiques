@@ -1,11 +1,11 @@
 html:
-	make4ht -x -d build/charte -e link-labels.lua -c aediroum.cfg -j index charte.tex || true
+	make4ht -x -d build/charte -e link-labels.lua -c aediroum.cfg -j index charte.tex
 	git clean -fd
-	make4ht -x -d build/coussin -e link-labels.lua -c aediroum.cfg -j index coussin.tex || true
+	make4ht -x -d build/coussin -e link-labels.lua -c aediroum.cfg -j index coussin.tex
 	git clean -fd
-	make4ht -x -d build/faecum -e link-labels.lua -c aediroum.cfg -j index faecum.tex || true
+	make4ht -x -d build/faecum -e link-labels.lua -c aediroum.cfg -j index faecum.tex
 	git clean -fd
-	make4ht -x -d build/positions -e link-labels.lua -c aediroum.cfg -j index positions.tex || true
+	make4ht -x -d build/positions -e link-labels.lua -c aediroum.cfg -j index positions.tex
 	git clean -fd
 
 pdf:
