@@ -28,7 +28,7 @@
     parties.push([Amendée: #action])
   }
 
-  if (abrogée == none) {
+  if abrogée != none {
     parties.push([Abrogée: #abrogée])
   }
 
