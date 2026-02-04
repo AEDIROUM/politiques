@@ -76,7 +76,7 @@
 // - path: Chemin vers le document (sans extension) sur le site web
 #let titre(nom: [], date: [], path: "") = context {
   let metadata = [
-    #emph[En date du: #date]\
+    #emph[En date du #date]\
     #emph[Obtenir la dernière version:]#h(.1em)
     #link(docs-root + path + ".pdf")[PDF] ·
     #link(docs-root + path)[Web]
