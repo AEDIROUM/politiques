@@ -20,9 +20,9 @@ une autre section du document.
 Lors de l’adoption d’une nouvelle position, le premier numéro non utilisé doit lui être attribué.
 Le numéro d’une position abrogée ne peut jamais être réutilisé par une autre position.
 
-= Affaires externes
+#article(level: 1, name: "ext")[Affaires externes]
 
-== Frais de scolarité
+#article(level: 2, name: "ext-frais-scolarite")[Frais de scolarité]
 
 #position(
   "1",
@@ -42,7 +42,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Environnement
+#article(level: 2, name: "ext-environnement")[Environnement]
 
 #position(
   "3",
@@ -52,7 +52,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Transport en commun
+#article(level: 2, name: "ext-transport-commun")[Transport en commun]
 
 #position(
   "4",
@@ -62,7 +62,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Association de campus
+#article(level: 2, name: "ext-association-campus")[Association de campus]
 
 #position(
   "5",
@@ -104,7 +104,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "AG-2025-09-17",
 )
 
-== Discrimination
+#article(level: 2, name: "ext-discrimination")[Discrimination]
 
 #position(
   "6",
@@ -115,7 +115,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Démocratie
+#article(level: 2, name: "ext-democratie")[Démocratie]
 
 #position(
   "7",
@@ -126,7 +126,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Aide financière
+#article(level: 2, name: "ext-aide-financiere")[Aide financière]
 
 #position(
   "8",
@@ -136,7 +136,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Entreprises privées
+#article(level: 2, name: "ext-entreprises-privees")[Entreprises privées]
 
 #position(
   "9",
@@ -162,7 +162,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Inclusivité
+#article(level: 2, name: "ext-inclusivite")[Inclusivité]
 
 #position(
   "11",
@@ -199,7 +199,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Mode de scrutin
+#article(level: 2, name: "ext-mode-scrutin")[Mode de scrutin]
 
 #position(
   "14",
@@ -210,7 +210,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Conflits au Proche-Orient
+#article(level: 2, name: "ext-proche-orient")[Conflits au Proche-Orient]
 
 #position(
   "23",
@@ -277,9 +277,9 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "AG-2024-11-13",
 )
 
-= Affaires internes
+#article(level: 1, name: "int")[Affaires internes]
 
-== Organisation des cours
+#article(level: 2, name: "int-organisation-cours")[Organisation des cours]
 
 #position(
   "15",
@@ -297,7 +297,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "AG-2024-02-07",
 )
 
-== Logiciels libres
+#article(level: 2, name: "int-logiciels-libres")[Logiciels libres]
 
 #position(
   "16",
@@ -315,7 +315,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "AG-2025-09-17",
 )
 
-== Politique linguistique
+#article(level: 2, name: "int-pol-linguistique")[Politique linguistique]
 
 #position(
   "17",
@@ -333,7 +333,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Budget
+#article(level: 2, name: "int-budget")[Budget]
 
 #position(
   "37",
@@ -343,7 +343,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "AG-2025-09-17",
 )
 
-== Identité
+#article(level: 2, name: "int-identite")[Identité]
 
 #position(
   "19",
@@ -361,7 +361,7 @@ Le numéro d’une position abrogée ne peut jamais être réutilisé par une au
   adoptée: "CA-2022-03-18",
 )
 
-== Autres
+#article(level: 2, name: "int-autres")[Autres]
 
 #position(
   "22",

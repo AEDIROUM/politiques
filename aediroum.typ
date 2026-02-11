@@ -77,7 +77,7 @@
 #let titre(nom: [], date: [], path: "") = context {
   let metadata = [
     #emph[En date du #date]\
-    #emph[Obtenir la dernière version:]#h(.1em)
+    #emph[Obtenir la dernière version:]
     #link(docs-root + path + ".pdf")[PDF] ·
     #link(docs-root + path)[Web]
   ]
@@ -107,14 +107,62 @@
   }
 }
 
+#let article(name: none, level: none, content) = [
+  #heading(level: level, [#content #metadata(name)])
+  #label(name)
+]
+
 #let document(body, nom: [], date: [], path: "") = context {
-  set heading(numbering: "1.1.1.1")
-  set text(font: "Libertinus Serif", size: 11pt)
-  set par(justify: true)
+  set heading(numbering: "1.1.1.1", supplement: [article])
+
+  show heading: it => context {
+    if (
+      not it.body.has("children")
+      or it.body.at("children").at(-1).func() != metadata
+    ) {
+      panic("Label manquant pour la section:", it.body)
+    }
+
+    let heading-label = it.body.at("children").at(-1).value
+
+    if target() == "html" {
+      let element = {
+        if it.level == 1 { html.h2 }
+        else if it.level == 2 { html.h3 }
+        else if it.level == 3 { html.h4 }
+      }
+      element(id: heading-label, {
+        html.a(class: "anchor", href: "#" + heading-label, {
+          if (it.numbering != none) {  
+            html.span(class: "numbering", counter(heading).display())
+          }
+          " "
+          it.body
+        })
+      })
+    } else {
+      block(
+        above: 1em + 1em / it.level,
+        below: 1em,
+        stroke: if it.level == 1 { (top: .5pt) } else { (:) },
+        inset: if it.level == 1 { (top: .66em) } else { (:) },
+        width: 100%,
+        text(features: ("smcp", "onum"), weight: "regular", {
+          if (it.numbering != none) {  
+            counter(heading).display()
+            h(1em)
+          }
+          lower[#it.body]
+        })
+      )
+    }
+  }
+
 
   if target() == "html" {
     // Style CSS pour la version HTML des documents
     html.elem("style", "
+/* Style général */
 :root {
   --background: #FEFEFE;
   --background-highlight: #DEDEDE;
@@ -165,8 +213,6 @@
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
   padding: 0;
   margin: 0;
 
@@ -179,6 +225,7 @@ html, body {
 
 body {
   max-width: 800px;
+  padding: 1em;
   margin: auto;
 }
 
@@ -200,12 +247,6 @@ header img {
   margin-right: 2em;
 }
 
-h2 {
-  border-top: 1px solid currentColor;
-  padding-top: 1em;
-  margin-top: 2em;
-}
-
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -215,6 +256,28 @@ a:hover {
   color: var(--link-hover-color);
 }
 
+/* En-têtes */
+h2 {
+  border-top: 1px solid currentColor;
+  padding-top: 1em;
+  margin-top: 2em;
+}
+
+:is(h2, h3, h4) .numbering {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+:is(h2, h3, h4) a {
+  color: var(--foreground);
+}
+
+/* Définitions */
+dl dt {
+  font-weight: bold;
+}
+
+/* Cahier de positions */
 .position {
   position: relative;
 
@@ -239,27 +302,13 @@ a:hover {
   text-transform: uppercase;
 }
 ")
+
     titre(nom: nom, date: date, path: path)
     body
   } else {
     // Style Typst pour la version PDF des documents
-    show heading: it => context {
-      let number = counter(heading).at(here())
-      block(
-        above: if it.level == 1 { 2em } else { 1em },
-        below: 1em,
-        stroke: if it.level == 1 { (top: .5pt) } else { (:) },
-        inset: if it.level == 1 { (top: .66em) } else { (:) },
-        width: 100%,
-        text(features: ("smcp", "onum"), weight: "regular", {
-          if (it.numbering != none) {  
-            counter(heading).display()
-            h(1em)
-          }
-          lower[#it.body]
-        })
-      )
-    }
+    set text(font: "Libertinus Serif", size: 11pt)
+    set par(justify: true)
 
     show link: set text(blue)
 

@@ -1,0 +1,581 @@
+#import "aediroum.typ": *
+
+#show: body => document(
+  nom: [Charte de l’AÉDIROUM],
+  date: [5 septembre 2025],
+  path: "/charte",
+  body,
+)
+
+// Chaque article est associé à un label. Ceci permet de créer des liens web vers une
+// section de la charte ou des références à un article de la charte dans les autres
+// documents. Afin de préserver les liens existants, éviter de modifier les labels déjà
+// en place, même après renommage d’un titre d’article.
+
+#article(level: 1, name: "gen")[Généralités]
+
+#article(level: 2, name: "gen-definitions")[Définitions]
+
+/ C.A.: Conseil d’administration
+/ C.E.: Conseil exécutif
+/ COMEX: Comité externe
+/ C.R.: Comité de représentation
+/ COUSSIN: Comité Organisant l’Univers Social et Sportif INformatique, tel que défini par le Règlement de la vie étudiante
+/ Personne administratrice: Personne membre du C.A.
+/ Café Tore et Fraction: Café étudiant géré conjointement par l’AÉDIROUM et l’AEMSUM
+/ Femme: Toute personne s'identifiant comme femme
+/ RFIUM: Regroupement de Femmes en Informatique de l'Université de Montréal
+/ AÉDIROUM: Association Étudiante du Département d'Informatique et de Recherche Opérationnelle de l'Université de Montréal
+/ ADDIROUM: Association des Diplomés du Département d'Informatique et de Recherche Opérationnelle de l'Université de Montréal
+/ AEMSUM: Association des Étudiants et Étudiantes en Mathématiques et Statistiques de l'Université de Montréal
+/ DIRO: Département d'Informatique et de Recherche Opérationnelle
+/ AECSMS: Association Étudiante des Cycles Supérieurs en Mathématiques et Statistique de l'Université de Montréal
+/ SÉSUM: Syndicat des Étudiant.e.s Salarié.e.s de l'Université de Montréal
+/ Mila: Institut québecois d’intelligence artificielle
+
+#article(level: 2, name: "gen-nom-sigle")[Nom et sigle]
+
+Association Étudiante du Département d'Informatique et de Recherche Opérationnelle de l'Université de Montréal (AÉDIROUM)
+
+#article(level: 2, name: "gen-siege-social")[Siège social]
+
+/ Adresse civique: 2920 Chemin de la Tour, Montréal, H3T 1J4, Québec, Canada, local 3190-2
+/ Adresse postale: AÉDIROUM, Département d'Informatique et de Recherche Opérationnelle, Université de Montréal, Pavillon André-Aisenstadt, CP 6128 succ Centre-Ville, Montréal, H3C 3J7, Québec, Canada
+
+#article(level: 2, name: "gen-objectifs")[Objectifs]
+
+L'AÉDIROUM a pour but de représenter ses personnes membres et de promouvoir leurs intérêts en tant que personnes inscrites à un programme du Département d'informatique et de recherche opérationnelle. En particulier, elle veille à~:
+
+- favoriser l'épanouissement de chacune d'elles;
+
+- promouvoir la formation et le maintien d'un niveau de vie sociale intéressant pour ses personnes membres;
+
+- établir et entretenir entre l'AÉDIROUM et le Département d'informatique et de recherche opérationnelle (le Département ou DIRO) de l'Université de Montréal (l'Université) un climat de collaboration;
+
+- représenter l'ensemble de ses personnes membres en prenant activement part aux différentes instances définies par les statuts de l'Université, de même qu'aux autres tribunes universitaires lorsqu'elle sera invitée à le faire et à tout autre forum extérieur où elle jugera bon d'être représentée;
+
+- faire en sorte que nul ne parle ou n'agisse en son nom sans son autorisation.
+
+#article(level: 2, name: "gen-sceau")[Sceau]
+
+Le sceau de l'association ainsi que tout logo auxiliaire, dont la forme est déterminée par le C.A., peuvent être utilisés uniquement :
+
+- dans tout document officiel émis ou écrit par l'AÉDIROUM;
+- dans toute communication officielle, y compris sur les réseaux sociaux;
+- dans le cadre de la promotion d'activités ou d'événements organisées par l'AÉDIROUM ou à laquelle elle participe;
+- lorsque autorisé par une personne administratrice.
+
+Le C.A. peut émettre des restrictions et des directives quant à leur usage.
+
+#article(level: 2, name: "gen-membres")[Membres]
+
+Sont membres de l'AÉDIROUM toutes les personnes inscrites à un programme suivant à l'Université de Montréal~:
+
+- Baccalauréat spécialisé en informatique;
+- Baccalauréat bidisciplinaire en mathématiques et informatique;
+- Majeure en informatique;
+- Mineure en informatique;
+- Maîtrise en informatique;
+- Doctorat en informatique.
+
+#article(level: 2, name: "gen-droits-devoirs")[Droits et devoirs]
+
+Les personnes membres ont le droit de participer à toutes les activités de l'AÉDIROUM, de recevoir les avis de convocation aux assemblées des personnes membres, d'assister à ces assemblées et d'y voter.
+Elles sont éligibles comme personnes membres de tout comité de l’AÉDIROUM.
+
+Les droits conférés à une personne membre sont conditionnels à ce qu'elle acquitte entièrement sa cotisation.
+
+#article(level: 2, name: "gen-cotisation")[Cotisation]
+
+Des cotisations de 17,50\$ sont perçues aux trimestres d’automne et d’hiver et des cotisations de 8,75\$ sont perçues au trimestre d’été.
+Toute modification au montant ou aux dates de perception des cotisations doit être approuvée en assemblée générale.
+Les cotisations ne sont pas remboursables.
+
+#article(level: 1, name: "ag")[Assemblée générale des membres]
+
+#article(level: 2, name: "ag-convocation")[Convocation]
+
+Pour toute assemblée ordinaire, les personnes membres de l'AÉDIROUM doivent être convoquées au moins cinq~(5) jours ouvrables à l'avance. Les assemblées sont convoquées à l'endroit fixé par le C.A. (ou par la ou les personnes qui convoquent l'assemblée).
+
+Au moins deux (2) assemblées générales, dites régulières, doivent être convoquées à chaque année, au début des trimestres d'automne et d'hiver.
+
+L'avis de convocation est transmis aux personnes membres par courrier électronique. L'avis doit indiquer la date et heure, le lieu et l'ordre du jour de l'assemblée. Il doit aussi contenir les documents pertinents à l'ordre du jour comme pièces jointes ou liens.
+
+En cas d'urgence ou pour tout autre cas prévu à la Charte, le C.A. peut convoquer les personnes membres de l'AÉDIROUM à une assemblée extraordinaire en transmettant un avis de convocation au moins deux~(2) jours à l'avance. L'ordre du jour d'une telle assemblée ne comporte qu'un nombre restreint de points et ne peut être modifié.
+
+Le C.A. doit convoquer une assemblée extraordinaire si dix~(10) personnes membres l'exigent par écrit, et cela dans les dix~(10) jours ouvrables suivant la réception d'une telle demande. Une telle demande doit spécifier le but et les objets d'une telle assemblée. À défaut par le C.A. de convoquer telle assemblée dans le délai stipulé, celle-ci peut être convoquée par les personnes signataires de la demande écrite eux-mêmes.
+
+#article(level: 2, name: "ag-participation")[Participation]
+
+Seules les personnes membres ont le droit de parole et le droit de vote à une assemblée de l'AÉDIROUM. Sauf en cas de huis clos, l'assemblée demeure publique.
+
+Chaque personne membre de l'AÉDIROUM a droit de vote, sans prépondérance; une personne membre ne peut voter par procuration.
+
+#article(name: "ag-procedure", level: 2)[Procédure]
+
+Après la vérification du quorum, les personnes membres présentes désignent une personne présidente et une personne secrétaire d'assemblée, normalement la présidence et le secrétariat de l'AÉDIROUM, respectivement.
+
+Les personnes membres réunies peuvent adopter tout règlement concernant la procédure d'assemblée. En l'absence de règlement sur un point donné, le Guide de procédure des assemblées délibérantes de l'Université de Montréal (code Lespérance) s'applique.
+
+#article(level: 2, name: "ag-quorum")[Quorum]
+
+Le quorum s'établit au plus petit des deux nombres suivants~: quarante~(40) personnes membres ou dix pourcents (10\%) de l'effectif de l'AÉDIROUM.
+
+Si le quorum n'est pas atteint pour débuter deux assemblées générales consécutives, le C.A. peut convoquer une nouvelle assemblée générale respectant les délais de convocation dans les dix~(10) jours ouvrables suivants. Cette assemblée générale aura lieu, sera décisionnelle et le quorum sera atteint et maintenu sans égard au nombre de membres présents, notamment en ce qui concerne l'application du paragraphe précédent.
+
+#article(level: 2, name: "ag-elections")[Élections]
+
+#article(level: 3, name: "ag-elections-presidence")[Présidence d'élection]
+
+La présidence d'élection est nommée par les personnes membres présentes. La personne présidente d'élection ne peut être candidate.
+
+Pour chaque poste soumis au suffrage, la personne présidente d'élection, si elle a droit de vote, doit consigner son vote qui ne sera dévoilé qu'en cas d'égalité.
+
+#article(level: 3, name: "ag-elections-postes-en-jeu")[Postes mis en jeu]
+
+À chaque élection régulière, soit à la première assemblée générale régulière d'automne de chaque année, tous les postes du C.A., du C.R., du COMEX, du COUSSIN, du C.E. et du comité du Café Tore et Fraction sont mis en jeu incluant ceux qui ont été comblés lors d'élections spéciales.
+
+#article(level: 3, name: "ag-elections-mandat")[Mandat]
+
+Le mandat des personnes élues débute dès leur élection et se termine au plus tard à la prochaine élection durant laquelle leur poste est mis en jeu.
+Toute personne membre élue devra retourner l'ensemble des clés qui lui ont été fournies le jour même de la fin de son mandat.
+
+#article(level: 3, name: "ag-elections-candidatures")[Candidatures]
+
+Seules les personnes membres de l'AÉDIROUM peuvent être candidates.
+
+Toute mise en candidature doit préalablement recevoir l'assentiment de la personne candidate.
+
+Malgré l'@ag-procedure, une élection doit avoir lieu pour chaque poste en jeu même s'il n'y a qu'une personne candidate en lice. Les personnes membres peuvent toujours se prononcer contre l'ensemble des candidatures. Lorsqu'une pluralité de personnes membres s'étant exprimées vote contre l'ensemble des candidatures, le poste demeure vacant.
+
+Dans le cas où la personne candidate n'est pas présente à l'assemblée, celle qui propose la mise en candidature doit s'être assurée d'avoir obtenu l'assentiment de celle proposée au poste.
+
+#article(level: 3, name: "ag-elections-scrutin")[Scrutin]
+
+L'élection a lieu tous les ans, au cours de la première assemblée générale régulière du trimestre d'automne.
+
+La date et le lieu du vote doivent être annoncés au moins dix~(10) jours ouvrables avant les élections, avec un rappel exactement cinq~(5) jours avant le scrutin.
+
+Tous les membres de l'AÉDIROUM ont droit de vote. Cependant, le vote de la présidence d'élections, si elle a droit de vote, demeure secret et sans effet dans les cas où une personne candidate obtient la majorité des votes exprimés; son vote n'est dévoilé et comptabilisé qu'en cas d'égalité.
+
+La présidence d'élection supervise le déroulement du scrutin; elle surveille le décompte ou le dépouillement des votes en présence des personnes candidates ou de leurs représentants.
+
+Lors d'un scrutin secret, la présidence d'élections doit rejeter les bulletins de vote qui n'indiquent pas de choix clair ou qui permettent d'identifier la personne électrice.
+
+Lors d'un scrutin à main levée, la présidence d'élections doit s'assurer qu'aucun électeur ne vote pour plus d'une personne candidate et que chaque voix exprimée n'est comptée qu'une seule fois.
+
+#article(level: 3, name: "ag-elections-contestation")[Contestation]
+
+Une élection peut être contestée s'il y a présomption d'irrégularité. Toute contestation d'élection doit être remise, par écrit, au C.E. dans les deux~(2) jours ouvrables suivant le jour du scrutin. La lettre de contestation doit être insérée dans le registre des procès-verbaux de l'AÉDIROUM, suivant sa date, au même titre qu'un procès-verbal régulier.
+
+#article(level: 3, name: "ag-elections-speciales")[Élections spéciales]
+
+/ Destitution: Lorsqu'une personne membre du C.A. est destituée par les personnes membres réunis en assemblée générale, l'élection de sa succession devrait avoir lieu au cours de la même assemblée générale.
+/ Démission en bloc: Si le C.A. ou le C.E. entend démissionner en bloc, il doit annoncer clairement son intention et convoquer une assemblée générale ordinaire où seront tenues les élections rendues nécessaires.
+
+#article(level: 2, name: "ag-adoption-budget")[Adoption du budget]
+
+Un budget annuel est voté à chaque assemblée régulière d'automne. Sauf dans la mesure prévue par la présente Charte, le C.A. ne peut approuver des dépenses qui excèdent celles prévues au budget.
+
+#article(level: 1, name: "ca")[Conseil d’administration~(C.A.)]
+
+#article(level: 2, name: "ca-fonctions")[Fonctions du C.A.]
+
+Le Conseil d'administration (C.A.) agit au nom de l’AÉDIROUM et définit ses grandes orientations en conformité avec les mandats donnés par les membres en assemblée générale.
+Les personnes membres du C.A. sont nommées, après leur élection ou leur nomination, administratrices de l'AÉDIROUM en vertu de la _Loi sur les compagnies_ (RLRQ, c. C-38).
+
+#article(level: 2, name: "ca-composition")[Composition du C.A.]
+
+Le C.A. est composé de cinq~(5) personnes membres élues de l'AÉDIROUM. Ces postes sont non cumulables et définis comme suit~:
+
+/ Présidence: 
+    La personne présidente est la première officière de l'AÉDIROUM et en est la porte-parole officielle.
+    Elle coordonne le travail du C.A. et du C.E.~: elle convoque les réunions, propose l'ordre du jour et, généralement, préside les séances (voir l'@ce-reunions).
+    Elle est aussi membre d'office de tout comité de l'AÉDIROUM.
+    Elle a la charge de convoquer les assemblées générales.
+
+/ Vice-présidence aux communications:
+    La personne vice-présidente aux communications assure la transmission des communications officielles de l’AÉDIROUM à ses membres.
+    Elle utilise pour cela tous les canaux habituels, incluant sans s’y restreindre les babillards de l’université, le site web, les courriels, les réseaux sociaux et les messageries instantanées.
+    Elle se coordonne avec les personnes responsables d’année ou de programme pour transmettre les communications dans les salles de classe.
+    Elle remplace, en premier lieu, la personne présidente en cas d’absence ou d’incapacité de celle-ci.
+
+/ Vice-présidence externe:
+    La personne vice-présidente externe préside le COMEX.
+    Ses autres responsabilités sont définies à l'@comex-composition.
+    Elle remplace, en deuxième lieu, la présidence en cas d’absence ou d’incapacité de celle-ci.
+
+/ Secrétariat:
+    La personne secrétaire a la charge de conserver de manière pérenne et sécuritaire les documents de l’AÉDIROUM et de publier son site web.
+    Elle maintient le nom de domaine `aediroum.ca` et les enregistrements DNS associés.
+    Elle tient les serveurs informatiques de l’association à jour des derniers correctifs de sécurité et s’assure de la sauvegarde des données.
+    Elle installe et maintient sur ces serveurs les logiciels nécessaires au travail du C.E.
+    Elle produit la déclaration annuelle de personne morale auprès de l’Inspecteur général des institutions financières.
+    Elle rédige normalement les comptes-rendus des assemblées générales et des réunions du C.E. et les rend disponibles sur le site web la journée de leur adoption.
+
+/ Trésorerie:
+    Le personne trésorière a la charge et la garde des fonds de l'AÉDIROUM et de ses livres de comptabilité.
+    Elle prépare le budget annuel de l'AÉDIROUM et présente à l'assemblée générale régulière d'automne.
+    Elle prépare un bilan annuel de l'AÉDIROUM et le présente a la dernière assemblée générale régulière d'hiver.
+    Elle doit également faire un suivi de l'état des finances de l'AÉDIROUM lors de chaque assemblée générale ordinaire et réunion du C.R.
+    À l'échéance de son mandat, elle doit transmettre à sa succession tous les documents dont elle a la garde.
+    Elle a la charge de remplir le rapport d'impôts de l'AÉDIROUM à la fin de chaque année fiscale.
+
+#article(level: 2, name: "ca-adjoints")[Personnes adjointes]
+
+Une personne adjointe peut être élue pour chaque poste du C.A. non-vacant listé ci-dessous. La responsabilité de la formation d’une personne adjointe et de son inclusion dans les dossiers relatifs au poste reviennent à la personne titulaire du poste en question. Les postes du C.A. ouverts à l’élection de personnes adjointes sont les suivants:
+
+- Personne adjointe aux communications
+- Personne adjointe aux affaires externes
+- Personne adjointe au secrétariat
+
+Les personnes éligibles à un poste de personne adjointe sont celles qui n’occupent pas déjà un poste du C.A. et qui ne sont pas déjà adjointes d’un autre poste du~C.A.
+Lors des élections, les postes de personnes adjointes sont offerts en priorité aux personnes étudiant en première année du baccalauréat.
+Les personnes adjointes ne sont pas membres du C.A.
+
+#article(level: 1, name: "cr")[Comité de représentation (C.R.)]
+
+#article(level: 2, name: "cr-fonctions")[Fonctions du C.R.]
+
+Le Comité de représentation~(C.R.) est responsable de la représentation et de la défense des droits académiques des personnes membres de l’AÉDIROUM.
+Il reçoit, traite et réalise des suivis de toute requête ou plainte de nature académique formulée par une ou plusieurs personnes membres.
+Il est responsable de maintenir un lien entre l’AÉDIROUM et le DIRO et son corps professoral.
+
+#article(level: 2, name: "cr-composition")[Composition du C.R.]
+
+Le C.R. est composé de trois~(3) personnes membres élues de l’AÉDIROUM.
+Ces postes sont non cumulables et définis comme suit~:
+
+/ Coordination aux affaires académiques de premier cycle:
+    La personne coordonnatrice aux affaires académiques de premier cycle traite toutes les requêtes de nature académique formulées par des personnes membres au premier cycle.
+    Elle gère les dossiers concernant les relations entre l’université et ces personnes membres.
+    Elle organise l’évaluation de mi-session des cours de premier cycle par l’AÉDIROUM.
+    Elle est déléguée d’office de l’AÉDIROUM au comité des études et à l’assemblée départementale du DIRO.
+
+/ Coordination aux affaires académiques de cycles supérieurs:
+    La personne coordonnatrice aux affaires académiques de cycles supérieurs traite toutes les requêtes de nature académique formulées par des personnes membres aux cycles supérieurs.
+    Elle gère les dossiers concernant les relations entre l’université et ces personnes membres.
+    Elle est déléguée d’office de l’AÉDIROUM au comité des études et à l’assemblée départementale du DIRO.
+
+/ Personne adjointe à la coordination aux affaires académiques:
+    La personne adjointe à la coordination aux affaires académiques assiste les autres personnes membres du C.R. dans la réalisation de leurs tâches.
+
+Le poste de coordination aux affaires académiques de premier cycle ne peut être occupé que par une personne étudiant au premier cycle.
+De même, la coordination aux affaires académiques de cycles supérieurs ne peut être occupée que par une personne étudiant aux cycles supérieurs.
+Lors des élections, le poste de personne adjointe à la coordination aux affaires académiques est offert en priorité aux personnes étudiant en première année du baccalauréat.
+
+#article(level: 2, name: "cr-reunions")[Réunions du C.R.]
+
+Le C.R. est recommandé de se réunir au moins deux~(2) fois par trimestre d’automne et d’hiver.
+Ses réunions sont convoquées par les coordinations aux affaires académiques de premier cycle et de cycles supérieurs, qui coprésident ses séances et en fixent l’ordre du jour.
+Toute décision prise par le C.R. doit l’être à l’unanimité.
+
+#article(level: 1, name: "comex")[Comité externe (COMEX)]
+
+#article(level: 2, name: "comex-fonctions")[Fonctions du COMEX]
+
+Le Comité externe~(COMEX) est en charge de la représentation de l’AÉDIROUM auprès de toute instance extérieure au DIRO et s’assure d’y porter les revendications, les valeurs et les besoins de ses membres en défendant les positions du cahier de positions tel que défini à l'@positions.
+
+#article(level: 2, name: "comex-composition")[Composition du COMEX]
+
+Le COMEX est composé de sept~(7) personnes membres élues de l’AÉDIROUM.
+Ces postes sont non cumulables et définis comme suit~:
+
+/ Vice-présidence externe:
+    La personne vice-présidente externe préside le COMEX.
+    Elle est déléguée d’office sur le Conseil d’administration de l’ADDIROUM.
+    Elle représente l’AÉDIROUM aux instances de la FAÉCUM conformément aux dispositions du Règlement sur l’affiliation à la FAÉCUM.
+    Elle est responsable de l’organisation des piquets de grève lorsqu’un mandat de grève est voté en assemblée générale.
+    Elle tient à jour le cahier de positions tel que défini à l'@positions.
+
+/ Responsable des relations avec Mila:
+    La personne responsable des relations avec Mila représente l’association étudiante de Mila auprès de l’AÉDIROUM et vice-versa.
+    Elle est responsable de contacter, en français et en anglais, les personnes membres de l’AÉDIROUM qui sont également membres de Mila.
+    Elle se rend à toute assemblée générale de l’association étudiante de Mila et en fait un rapport régulier au COMEX.
+    Pour être éligible, la personne doit être membre de Mila.
+
+/ Responsable des relations avec les programmes de mathématiques:
+    La personne responsable des relations avec les programmes de mathématiques représente l’AEMSUM et l’AECSMS auprès de l’AÉDIROUM et vice-versa.
+    Elle se rend à toute assemblée générale de l’AEMSUM et de l’AECSMS et en fait un rapport régulier au COMEX.
+    Il est recommandé que la personne occupant ce poste étudie au baccalauréat bidisciplinaire en mathématiques et informatique.
+
+/ Représentation des femmes en informatique:
+    La personne représentante des femmes en informatique représente le RFIUM au sein de l’AÉDIROUM et vice-versa.
+    Lors de toute assemblée générale, réunion du C.E. ou tout moment de prise de décision auquel participent une ou plusieurs personnes membres du C.E., la personne représentante a comme responsabilité de rappeler l'importance de la voix des étudiantes femmes en informatique, de la résolution du problème du manque de représentation de femmes en informatique et d'un effort pour augmenter la représentation des étudiantes femmes au sein des instances de l'AÉDIROUM.
+    Elle se rend à toute assemblée générale du RFIUM et en fait un rapport régulier au COMEX.
+    Pour être éligible, la personne doit être recommandée par le RFIUM lors d’une assemblée générale ou d’une réunion du conseil d’administration du RFIUM ayant eu lieu préalablement, soit durant la même session ou durant la session précédant celle-ci.
+    Elle doit obtenir, lors d’une telle assemblée ou réunion, l’approbation d’au moins 50\% des voix plus une voix.
+    Le RFIUM doit avoir élu au moins cinq~(5) personnes membres de son conseil d’administration au moment de l’élection.
+
+/ Représentation des personnes étudiantes salariées:
+    La personne représentante des personnes étudiantes salariées défend les droits des auxiliaires d’enseignement et de recherche employés par le DIRO.
+    Elle représente le SÉSUM au sein de l’AÉDIROUM et vice-versa.
+    Elle se rend à toute assemblée générale du SÉSUM et en fait un rapport régulier au COMEX.
+    Pour être éligible, la personne doit être présentement auxiliaire d’enseignement ou de recherche ou l’avoir été au cours des trois~(3) dernières sessions.
+
+/ Représentation des personnes étudiantes internationales:
+    La personne représentante des personnes étudiantes internationales porte la voix des personnes membres qui ont un statut de personnes étudiantes internationales au sein du COMEX et du C.E.
+    Elle participe à tout comité interne ou externe traitant des questions relatives à ce statut auquel l’AÉDIROUM est invitée.
+    Elle redirige également les personnes membres ayant ce statut vers toute ressource pertinente pouvant les aider dans leur parcours.
+
+/ Personne adjointe aux affaires externes:
+    La personne adjointe aux affaires externes assiste les autres personnes membres du COMEX dans la réalisation de leurs tâches.
+    Au besoin, elle les remplace dans les assemblées ou les comités auxquels elles sont tenues d’assister.
+
+Lors des élections, le poste de personne adjointe aux affaires externes est offert en priorité aux personnes étudiant en première année du baccalauréat.
+
+#article(level: 2, name: "comex-reunions")[Réunions du COMEX]
+
+Le COMEX est recommandé de se réunir au moins deux~(2) fois par trimestre d’automne et d’hiver.
+Ses réunions sont convoquées par la vice-présidence aux affaires externes, qui en préside les séances et en fixe l’ordre du jour.
+Toute décision prise par le COMEX doit l’être à majorité simple, sans prépondérance.
+
+#article(level: 1, name: "ce")[Conseil exécutif~(C.E.)]
+
+#article(level: 2, name: "ce-fonctions")[Fonctions du C.E.]
+
+Le Conseil exécutif~(C.E.) travaille à la réalisation des objectifs de l'AÉDIROUM et veille à l'exécution des décisions prises en assemblée générale. Il est responsable des comités de l'AÉDIROUM, et peut donc en destituer toute personne membre non-élue par une majorité simple. Il est responsable de la représentation de l'AÉDIROUM aux réunions du département, incluant le choix des personnes déléguées parmi ses personnes membres.
+
+#article(level: 2, name: "ce-composition")[Composition du C.E.]
+
+Le C.E. est composé des membres du C.A., du C.R. et du COMEX, des personnes adjointes à des membres du C.A., et des six~(6) personnes dont les postes non cumulables sont définis comme suit~:
+
+/ Coordination à la vie étudiante:
+    La personne coordonnatrice à la vie étudiante est responsable devant le C.E. de tout contact avec l'extérieur de l'AÉDIROUM concernant les activités sociales, culturelles et sportives.
+    Ses autres responsabilités sont définies par le Règlement de la vie étudiante.
+
+/ Personnes adjointes à la coordination à la vie étudiante (3 postes):
+    Les personnes adjointes à la coordination à la vie étudiante assistent la personne titulaire du poste dans la réalisation de ses tâches.
+    Leurs autres responsabilités sont définies par le Règlement de la vie étudiante.
+    Lors des élections, l’un de ces postes est offert en priorité aux personnes étudiant en première année du baccalauréat.
+
+/ Représentation du café Tore et Fraction:
+    La personne représentante du café représente l'administration du café devant l’association et vice-versa.
+    Sa tâche est définie dans la charte du café.
+    Elle doit former un comité, qu’elle préside, constitué de personnes membres de l'AÉDIROUM pour remplir les postes requis par la charte du café.
+    Elle présente des rapports réguliers sur le café lors des réunions du C.E. et un rapport annuel lors de l’assemblée générale régulière d’automne.
+
+/ Responsable des locaux:
+    La personne responsable des locaux est en charge de l’entretien et de la décoration des locaux attribués à l’AÉDIROUM.
+    Elle en inventorie le matériel disponible et recommande l’achat de nouveau mobilier.
+    Elle organise au moins une~(1) fois par session une journée de nettoyage du local avec l’aide de bénévoles.
+    Au besoin, elle rend les locaux accessibles aux membres de l’association.
+
+#article(level: 3, name: "ce-autres-cafe")[Autres membres du comité du café Tore et Fraction]
+
+Seront élues deux~(2) autres personnes membres du comité du café Tore et Fraction, qui seront membres du C.E.
+L'un de ces postes sera ouvert en priorité à une personne étudiante de première année afin de favoriser le bon roulement des personnes membres du comité du café.
+
+Parmi les personnes membres élues du comité, deux~(2) seront signataires pour le compte du café étudiant.
+
+Lors des réunions du C.E. les trois~(3) personnes membres du comité du café Tore et Fraction se partagent un seul vote.
+
+#article(level: 3, name: "ce-cumul-postes")[Cumul de postes]
+
+Sans aller à l'encontre de l’@ca-composition et de l’@ce-composition, il peut y avoir, au sein du C.E., cumul de postes par une même personne.
+Au sein de l'@ce-quorum-participation, le cumul de poste n'entraîne pas de voix supplémentaire lors d'un vote en réunion du C.E.
+
+#article(level: 2, name: "ce-reunions")[Réunions du C.E.]
+
+#article(level: 3, name: "ce-reunions-frequence")[Fréquence]
+
+Le C.E. est recommandé de se réunir au moins quatre (4) fois par trimestre d'automne et d'hiver et au moins deux (2) fois par trimestre d'été.
+
+#article(level: 3, name: "ce-convocation")[Convocation]
+
+Les réunions du C.E. peuvent être convoquées par la présidence ou par le secrétariat. Elles peuvent aussi être convoquées lorsque quatre~(4) personnes membres du C.E. en font une demande écrite par lettre ou par courrier électronique envoyé à la présidence ou au secrétariat. La convocation doit avoir lieu au moins trois (3) jours ouvrables avant la réunion.
+
+Les réunions sont tenues au siège social ou tout autre lieu déterminé par le C.A. et indiqué dans la convocation.
+
+Une réunion du C.E. extraordinaire peut être convoquée avec 36 heures de préavis. L'ordre du jour de cette réunion ne comporte qu'un nombre très restreint de points et doit demeurer fermé.
+
+#article(level: 3, name: "ce-quorum-participation")[Quorum et participation]
+
+Le quorum s'établit à 50\% (arrondi vers le bas) du C.E. en poste et à deux~(2) personnes membres du C.A. Les décisions sont prises à la majorité simple des voix exprimées. Chaque personne membre du C.E. a droit de vote, sans prépondérance. Les personnes membres de l'AÉDIROUM peuvent assister, à titre d'observatrices, aux réunions du C.E.
+
+#article(level: 3, name: "ce-procedure")[Procédure]
+
+Le C.E. peut adopter tout règlement concernant sa procédure d'assemblée, dans la mesure où ce règlement ne contrevient pas à la Charte.
+
+#article(level: 3, name: "ce-presidium")[Présidence et secrétariat d'assemblée]
+
+Les réunions du C.E. sont typiquement présidées par la présidence de l'AÉDIROUM. Le secrétariat de l'AÉDIROUM agit typiquement au secrétariat d’assemblée. Il revient aux personnes membres du C.E. de choisir parmi elles une présidence et un secrétariat d'assemblée au début de chaque réunion.
+
+#article(level: 3, name: "ce-resolution-signee")[Résolution signée]
+
+Une résolution écrite, signée par au moins deux personnes administratrices et une majorité simple du C.E., est valide et a le même effet que si elle avait été adoptée à une réunion du C.E. dûment convoquée et tenue. Une telle résolution doit être insérée dans le registre des procès-verbaux de l'AÉDIROUM, suivant sa date, au même titre qu'un procès-verbal régulier.
+
+#article(level: 2, name: "ce-destitution-demission-retrait")[Destitution, démission et retrait d'une personne membre du~C.E.]
+
+#article(level: 3, name: "ce-destitution")[Destitution votée par le C.E.]
+
+Le C.E. peut, par résolution, engager une procédure de destitution à l'encontre de n'importe quelle personne titulaire de poste, y compris une personne administratrice, dans les cas suivants~:
+- la personne visée a une conduite contraire aux intérêts de l'AÉDIROUM ou n'en respecte pas les statuts;
+- elle est accusée d'un acte criminel selon le droit canadien;
+- elle s'est absentée sans motif lors de trois (3) réunions du C.E. ou assemblées générales consécutives.
+
+Lorsqu'une telle résolution est approuvée, le C.A. doit convoquer une assemblée générale dans les plus brefs délais lors de laquelle la destitution doit être approuvée par les personnes membres. Une telle résolution peut également prévoir la suspension de la personne titulaire jusqu'à l'assemblée générale.
+
+#article(level: 3, name: "ce-destitution-procedure")[Procédure]
+
+Lors d'une assemblée générale au cours de laquelle un vote de destitution a lieu, y
+compris une assemblée extraordinaire convoquée à la suite d'une demande écrite des
+personnes membres en vertu de l'@ag-convocation, la personne visée par la procédure de destitution a droit à un temps de parole suffisant pour lui permettre de s'expliquer et de se défendre.
+
+Toute destitution soumise en assemblée doit être approuvée par un vote des deux tiers
+(2/3) (arrondi vers le haut) des voix exprimées.
+
+#article(level: 3, name: "ce-retrait")[Retrait d'une personne membre du C.E.]
+
+Cesse de faire partie du C.E. et d'occuper sa fonction toute personne membre qui se trouve dans l'une des situations suivantes :
+
+- elle présente par écrit sa démission au C.A.;
+- elle décède;
+- elle est destituée;
+- un tribunal lui interdit d'occuper cette fonction.
+
+#article(level: 2, name: "ce-remuneration")[Rémunération]
+
+À moins qu'une telle mesure ne soit votée en assemblée générale, notamment lors d'un vote sur le budget, aucune des personnes membres du C.E. n'est rémunérée pour l'exercice de ses fonctions. Elles ne peuvent pas non plus tirer profit financier d'activités faites au nom de l'AÉDIROUM.
+
+#article(level: 2, name: "ce-interim")[Intérim]
+
+Le C.E. peut, par résolution, nommer par intérim toute personne membre de l'AÉDIROUM éligible à un poste vacant du C.E., y compris à un poste d'administratrice. Tout poste dont la personne titulaire a été ainsi nommée est mis en élection à l'assemblée générale régulière qui suit.
+
+Cependant, le C.E. ne peut nommer une personne qui a été destituée de ce poste depuis la dernière fois où il a été mis en élection. Il ne peut non plus nommer une personne qui, ayant été candidate la dernière fois où le poste a été mis en élection, a été battue en raison d'un rejet par les membres de l'ensemble des candidatures conformément à l'@ag-elections-candidatures.
+
+Tant que le poste demeure vacant, il revient aux autres membres du C.E. de se distribuer la tâche, ou aux autres personnes administratrices s'il s'agit d'un poste du C.A.
+
+#article(level: 1, name: "comites")[Comités]
+
+Le C.E. ou les personnes membres réunies en assemblée peuvent mettre sur pied tout comité jugé utile à la bonne marche de l'AÉDIROUM.
+
+Lors de la mise sur pied du comité, la nature de son mandat ainsi que sa durée doivent être spécifiées. Si le comité est permanent, ses missions et le nom des postes élus qui sont appelés à le constituer doivent être définis dans la présente Charte ou dans un règlement.
+
+Une présidence doit aussi être nommée et choisie par le C.E. parmi les personnes membres de l'AÉDIROUM. À la demande du C.E., la présidence d'un comité doit faire un rapport oral au C.E. À la fin du mandat, les activités de tout comité non-permanent
+doivent cesser et la présidence du comité doit alors présenter, lors de la prochaine assemblée générale des personnes membres, un rapport écrit du bilan du comité.
+
+#article(level: 1, name: "modif-charte")[Modification à la Charte]
+
+Tout amendement à la présente charte doit être proposé lors d'une assemblée générale et adopté aux deux tiers (2/3) (arrondi vers le haut) des voix exprimées.
+
+Tout changement substantiel doit être rendu consultable par les membres au moins
+cinq (5) jours ouvrables avant l’assemblée générale, faute de quoi un temps de lecture
+raisonnable de la proposition d’amendement devra être laissé aux membres de l’assemblée.
+
+La charte peut également être amendée par voie de référendum. Toute modification doit être approuvée par au moins les deux tiers (2/3) (arrondi vers le haut) des voix exprimées.
+
+#article(level: 1, name: "reglements")[Règlements]
+
+L’assemblée générale des membres de l’AÉDIROUM, ou le C.E. lors d’une de ses réunions, peuvent adopter et amender des règlements par un vote du deux tiers (2/3) (arrondi vers le haut) des voix exprimées.
+Ces règlements sont considérés comme des annexes à la Charte et ne peuvent contrevenir aux dispositions de la Charte.
+Toute modification aux règlements votée par le C.E. s’applique immédiatement et doit être confirmée lors de l’assemblée générale suivante par un vote du deux tiers (2/3) (arrondi vers le haut) des voix exprimées.
+
+#article(level: 1, name: "referendum")[Référendums]
+
+#article(level: 2, name: "referendum-tenue")[Tenue d'un référendum]
+
+Les personnes membres de l'AÉDIROUM réunies en assemblée générale peuvent décréter la tenue d'un référendum et décider de sa date et du libellé de ses questions ou propositions, de même que d'un taux de participation minimal.
+
+Le C.A. peut également décider de tenir un référendum. Il décide alors de sa date et du libellé de ses questions ou propositions. Un tel référendum n'est valide que si le taux de participation atteint au moins 20\% (arrondi vers le bas) des personnes membres.
+
+Un référendum n'est ni un sondage ni un plébiscite; la décision résultante, si applicable devient une position officielle de l'AÉDIROUM.
+
+#article(level: 2, name: "referendum-presidence")[Présidence de référendum]
+
+La présidence de référendum est nommée par le C.A. Pour chaque question ou proposition soumise au suffrage, la personne présidente, si elle a droit de vote, doit consigner son vote qui ne sera comptabilité qu'en cas d'égalité.
+
+#article(level: 2, name: "referendum-scrutin")[Scrutin]
+
+#article(level: 3, name: "referendum-scrutin-modalites")[Modalités]
+
+Un référendum se tient sur une période d'au moins trois~(3) jours ouvrables. Durant cette période, le bureau de scrutin doit être ouvert aux personnes membres à des heures raisonnables et en un endroit fréquenté par ses personnes membres. Le vote est secret.
+
+#article(level: 3, name: "referendum-scrutin-droit")[Droit de vote]
+
+Toutes les personnes membres de l'AÉDIROUM ont droit de vote. Cependant, le vote de la présidence d'élection, si applicable, demeure secret et sans effet dans les cas où une option obtient la majorité des votes exprimés; son vote n'est comptabilisé qu'en cas d'égalité.
+
+#article(level: 3, name: "referendum-scrutin-convocation")[Modalités de la convocation]
+
+La date et le lieu d'un référendum, de même que le libellé des questions ou des propositions soumises, doivent être publiés dix~(10) jours ouvrables avant la période de scrutin.
+
+#article(level: 1, name: "positions")[Cahier de positions]
+
+#article(level: 2, name: "positions-contenu")[Contenu]
+
+Le cahier de positions de l'AÉDIROUM contient toutes les positions ainsi que toutes les motions présentement en vigueur adoptées en assemblée générale des personnes membres de l'AÉDIROUM ou en C.E.
+
+L'instance de l'adoption ainsi que l'historique des modifications de chaque élément du cahier de positions doit figurer après cet élément.
+
+Une position ou motion adoptée en assemblée générale de l'AÉDIROUM ne peut être modifiée qu'en assemblée générale des membres de l'AÉDIROUM.
+
+#article(level: 2, name: "positions-mise-a-jour")[Mise à jour]
+
+Le cahier de positions doit être mis à jour par la vice-présidence externe de l'AÉDIROUM dans les cinq~(5) jours ouvrables suivant l'adoption, la modification, ou le retrait de positions ou de motions.
+
+Le cahier de positions mis à jour doit être rendu public dans les plus brefs délais. Une annonce aux personnes membres doit suivre la publication de toute version du cahier de positions.
+
+#article(level: 2, name: "positions-effet")[Effet]
+
+Le C.E. de l'AÉDIROUM se doit de respecter les positions et motions contenues dans le cahier des positions.
+
+Cependant, en l'absence d'une position contraire, une personne membre du C.E. de l'AÉDIROUM peut toujours agir afin de défendre les intérêts des membres de l'AÉDIROUM.
+
+#article(level: 1, name: "finances")[Dispositions financières]
+
+#article(level: 2, name: "finances-annee")[Année financière]
+
+L'exercice financier de l'AÉDIROUM se termine le 31~août de chaque année, ou à toute autre date qu'il plaira au C.A. de fixer.
+
+#article(level: 2, name: "finances-creance")[Créance]
+
+L'AÉDIROUM ne fait crédit à aucune personne, physique ou morale, sauf en cas de dépôt requis pour les biens ou services qu'elle se procure. Le C.A. a la charge commune de récupérer rapidement toute somme qui lui est due ou qui est perçue en son nom.
+
+#article(level: 2, name: "finances-signataires")[Signataires]
+
+Les cinq~(5) personnes signataires du ou des comptes bancaires de l'AÉDIROUM sont les personnes membres du C.A. Elles sont changées après chaque élection régulière en automne ou au besoin lorsque les personnes membres du C.A. ne sont plus les mêmes.
+
+#article(level: 2, name: "finances-effets-bancaires")[Effets bancaires]
+
+Tous les chèques et autres effets bancaires de l'AÉDIROUM doivent être signés par deux~(2) personnes membres du C.A. ou toutes autres personnes désignées par le C.A.
+
+#article(level: 2, name: "finances-contrats")[Contrats]
+
+Les contrats et autres documents requérant la signature de l'AÉDIROUM sont au préalable approuvés (à majorité simple) par le C.A. Une même personne ne peut pas signer pour deux parties différentes sur un contrat.
+
+Le C.A. peut également autoriser tout personne ne siégeant par sur le C.A. à signer un contrat ou un document particulier.
+
+#article(level: 2, name: "finances-modification-budget")[Modification du budget]
+
+Le C.E. peut, par résolution, amender le budget voté en assemblée générale. Le budget ainsi amendé a le même effet que s'il avait été voté en vertu de l'@ag-adoption-budget.
+
+#article(level: 2, name: "finances-approbation-depenses")[Approbation des dépenses]
+
+Toute dépense doit être approuvée par:
+
+- une personne administratrice, s’il s’agit d’une dépense n’excédant pas cinq cents (500) dollars ou d’une dépense urgente;
+- au moins deux personnes administratrices, s’il s’agit d’une dépense n’excédant pas deux mille (2 000) dollars;
+- au moins trois personnes administratrices, dans les autres cas.
+
+Une dépense est considérée urgente si, à la fois :
+
+- il n'est pas possible d'obtenir une résolution d'amendement du budget de la part du C.E. dans un délai raisonnable;
+- le défaut d'encourir cette dépense dans un délai rapproché est susceptible de causer un préjudice ou la perte d'un avantage à l'AÉDIROUM ou à l'une de ses personnes membres.
+
+Dans tous les cas, une dépense non budgétée doit, pour être admissible, s'inscrire dans les objectifs de l'AÉDIROUM décrits à l'@gen-objectifs.
+En particulier, une personne administratrice ne peut encourir une dépense pour obtenir pour elle-même un avantage indu.
+
+#article(level: 2, name: "finances-indemnisation")[Indemnisation]
+
+Toute personne membre du C.E. ou agissant pour le compte de l’AÉDIROUM, ses héritiers et ayants droit seront tenus, au besoin et à toute époque, à même les fonds de l'AÉDIROUM, indemnes et à couvert~:
+
+- de tous frais, charges et dépenses quelconques que cette personne membre subit ou supporte au cours ou à l'occasion d'une action, poursuite ou procédure intenté contre elle, à l'égard ou en raison d'actes faits ou choses accomplies ou permises par elle dans l'exercice ou pour l'exécution de ses fonctions, et
+- de tous autres frais, charges et dépenses qu'elle supporte ou subit au cours ou à l'occasion des affaires de l'AÉDIROUM ou relativement à ces affaires, exceptés ceux qui résultent de sa propre négligence ou de son omission volontaire.
+
+#article(level: 3, name: "finances-idemnisation-preuve")[Procédure de preuve]
+
+Afin qu'une personne membre du C.E., sa succession et ses ayants droits puissent se prévaloir des dispositions d'indemnisation, le C.A. peut exiger des preuves suffisantes que les frais, charges ou dépenses visées à l'@finances-indemnisation ont été subies.
+
+#article(level: 1, name: "version-charte")[Version de la Charte]
+
+La présente version de la Charte remplace, depuis son adoption par l'assemblée générale, toutes les versions antérieures. Cette Charte peut être remplacée par toute version ultérieure dès l'adoption de cette dernière en assemblée générale.
