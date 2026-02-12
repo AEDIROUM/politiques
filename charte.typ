@@ -7,11 +7,6 @@
   body,
 )
 
-// Chaque article est associé à un label. Ceci permet de créer des liens web vers une
-// section de la charte ou des références à un article de la charte dans les autres
-// documents. Afin de préserver les liens existants, éviter de modifier les labels déjà
-// en place, même après renommage d’un titre d’article.
-
 #article(level: 1, name: "gen")[Généralités]
 
 #article(level: 2, name: "gen-definitions")[Définitions]
