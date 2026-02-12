@@ -38,7 +38,7 @@ Toute intervention des personnes représentantes de l’AÉDIROUM aux instances 
 
 #article(level: 2, name: "participation-hierarchie")[Hiérarchie de délégation]
 
-La personne représentante officielle de l'AÉDIROUM à une instance ou sous-instance est la personne présente à celle-ci qui est la plus haute dans la hiérarchie suivante. La personne déléguée d'office à l'instance ou la sous-instance est la personne spécifiée dans l'\article{sec:delegues-doffice-instances}. Si la fonction plus haute dans la hiérarchie ne peut se présenter à l'instance, il revient au prochain point dans la hiérarchie de remplir ce rôle récursivement.
+La personne représentante officielle de l'AÉDIROUM à une instance ou sous-instance est la personne présente à celle-ci qui est la plus haute dans la hiérarchie suivante. La personne déléguée d'office à l'instance ou la sous-instance est la personne spécifiée dans l'@participation-deleguees. Si la fonction plus haute dans la hiérarchie ne peut se présenter à l'instance, il revient au prochain point dans la hiérarchie de remplir ce rôle récursivement.
 
 S'il peut avoir plusieurs personnes représentantes votantes, les personnes déléguées sont déterminées par cet ordre.
 
