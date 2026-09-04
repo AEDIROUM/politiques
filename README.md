@@ -6,7 +6,7 @@ Ce projet contient les politiques de l'Association Étudiante du Département d'
 
 Toute modification à la branche principale (`officielle`) doit faire l'objet d'une demande de fusion.
 
-Les documents peuvent être générés au format HTML avec la commande (`make html`) ou au format PDF avec la commande (`make pdf`).
+Les documents peuvent être générés au format HTML et PDF avec la commande (`make`).
 
 La génération requiert un compilateur [Typst](https://typst.app/docs/) en version 0.14.2.
 
